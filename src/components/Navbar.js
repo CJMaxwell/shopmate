@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand" href="/"><img src="images/SHOPMATE.png" alt="Shop Mate Logo"/></a>
+      <a className="navbar-brand" href="/"><img src="img/SHOPMATE.png" alt="Shop Mate Logo"/></a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -27,7 +27,7 @@ export default function Navbar() {
         </ul>
         <form className="form-inline my-2 my-lg-0">
           <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-          <img src="images/icons-bag.png" alt="Icons Bag"/><span className="badge badge-white">2</span>
+          <img src="img/icons-bag-white.png" alt="Icons Bag"/><span className="badge badge-white">2</span>
         </form>
       </div>
   </nav>
